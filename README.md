@@ -1,9 +1,8 @@
 # Clang_LLVM_DistCC
 
-```bash
-XcodePath=`xcode-select --print-path`
+## Usage
 
-SpecPath="$XcodePath/../PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Xcode/Plug-ins/Clang LLVM 1.0.xcplugin/Contents/Resources"
+```bash
+$ make -B 9_3
 ```
 
-Put the corresponding `Clang_DistCC LLVM 1.0.xcspec` file to `SpecPath`
